@@ -7,15 +7,20 @@ This project was built entirely in Jupyter Notebook (Anaconda Cloud) using step-
 The goal of this project is to understand how different factors influence salary in the tech/data industry.
 
 **Key questions explored:**
-++ How does experience impact salary?
-++ Which job titles earn the highest?
-++ Does education level affect compensation?
-++ How are salaries distributed overall?
-++ Which countries pay the most?
+
+-How does experience impact salary?
+
+-Which job titles earn the highest?
+
+-Does education level affect compensation?
+
+-How are salaries distributed overall?
+
+-Which countries pay the most?
 
 The project combines two survey datasets, cleans them, fixes inconsistencies, and produces clear, professional visualizations.
 
-⭐ Technologies Used:-
+⭐ Technologies Used:
 Python
 Pandas
 NumPy
@@ -23,34 +28,52 @@ Matplotlib
 Seaborn
 Jupyter Notebook (Anaconda Cloud)
 
-⭐ Dataset Description
-Two survey datasets were merged:
+⭐ Dataset Description:
+Two survey datasets were merged-
 2019responses.csv
 2021responses.csv
 
 After cleaning, the final dataset contains columns as:
 Salary (USD)
+
 Years of Experience
+
 Job Title
+
 Education Level
+
 Company Size
+
 Work Hours
+
 Remote Days
+
 Employment Type
+
 Country
+
 Survey Year
 
-⭐ Data Cleaning Steps
+⭐ Data Cleaning Steps:
 
 ✔ Removed metadata rows
+
 ✔ Standardized column names
+
 ✔ Merged 2019 & 2021 datasets
+
 ✔ Converted salary to numeric
+
 ✔ Fixed invalid experience values (e.g., “2020”, “1997”)
+
 ✔ Removed outliers & duplicates
+
 ✔ Converted categoricals
+
 ✔ Filled missing values (median/mode)
+
 ✔ Sorted data by country/year
+
 ✔ Prepared final dataset stored in memory as dataset
 
 **All transformations were performed directly inside the notebook.**
@@ -85,12 +108,12 @@ Created for:
 
 Aesthetic pie chart showing education distribution.
 
-**⭐ Insights**
+**⭐ Insights**:
 Here are the key insights derived from the analysis:
 
 🔹 Experience
 
-Salary increases with experience, but not dramatically — experience alone does not guarantee higher pay.
+Salary increases with experience, but not dramatically, experience alone does not guarantee higher pay.
 
 🔹 Job Titles
 
@@ -103,21 +126,23 @@ Higher education levels generally correspond to higher salaries, but Bachelor’
 
 🔹 Salary Distribution
 
-Right-skewed — most salaries sit in the mid-range with a few extremely high earners pulling the average up.
+Right-skewed —> most salaries sit in the mid-range with a few extremely high earners pulling the average up.
 
 🔹 Countries
 
 Strong variation across regions, with US/Western Europe leading.
 
-Overall:
-“What job you do and where you work impact salary more than years of experience.”
+**Overall**:
+What job you do and where you work impact salary more than years of experience.
 
 **How to Run the Project**
 
 >>Clone the repository:
 git clone https://github.com/KumuT5/Salary-Analyzer.git
+
 >>Open the Jupyter Notebook:
 Salary_Analyser.ipynb
+
 >>Run each cell in order — the notebook contains:
 data loading
 cleaning
@@ -128,8 +153,11 @@ insights
 **⭐ Future Improvements**
 
 *Build an interactive dashboard (Streamlit / Power BI)
+
 *Add machine learning salary prediction
+
 *Create role clustering using NLP
+
 *Add filters for country/year to the visualizations
 
 **⭐ License**
@@ -147,5 +175,3 @@ This project represents a full real-world data analysis workflow:
 ✔ plots
 ✔ insights
 ✔ GitHub documentation
-
-Your repo now looks clean, real, and professional.
