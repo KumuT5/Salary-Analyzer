@@ -21,12 +21,12 @@ The goal of this project is to understand how different factors influence salary
 The project combines two survey datasets, cleans them, fixes inconsistencies, and produces clear, professional visualizations.
 
 ⭐ Technologies Used:
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook (Anaconda Cloud)
+Python, 
+Pandas, 
+NumPy, 
+Matplotlib, 
+Seaborn, 
+Jupyter Notebook (Anaconda Cloud).
 
 ⭐ Dataset Description:
 Two survey datasets were merged -
