@@ -30,7 +30,7 @@ Jupyter Notebook (Anaconda Cloud)
 
 ⭐ Dataset Description:
 Two survey datasets were merged -
-2019responses.csv
+2019responses.csv, 
 2021responses.csv
 
 After cleaning, the final dataset contains columns as:
@@ -79,8 +79,9 @@ After cleaning, the final dataset contains columns as:
 
 **All transformations were performed directly inside the notebook.**
 
-⭐ Visualizations
-The following visualizations were created:
+⭐ Visualizations: 
+
+The following visualizations were created -
 
 📌 1. Top 10 Countries by Salary **(Bar Plot)**
 
@@ -110,7 +111,7 @@ Created for:
 Aesthetic pie chart showing education distribution.
 
 **⭐ Insights**:
-Here are the key insights derived from the analysis:
+Here are the key insights derived from the analysis -
 
 🔹 Experience
 
@@ -136,7 +137,7 @@ Strong variation across regions, with US/Western Europe leading.
 **Overall**:
 What job you do and where you work impact salary more than years of experience.
 
-**How to Run the Project**
+**How to Run the Project**:
 
 >>Clone the repository:
 git clone https://github.com/KumuT5/Salary-Analyzer.git
