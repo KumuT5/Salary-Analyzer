@@ -8,15 +8,15 @@ The goal of this project is to understand how different factors influence salary
 
 **Key questions explored:**
 
--How does experience impact salary?
+-> How does experience impact salary?
 
--Which job titles earn the highest?
+-> Which job titles earn the highest?
 
--Does education level affect compensation?
+-> Does education level affect compensation?
 
--How are salaries distributed overall?
+-> How are salaries distributed overall?
 
--Which countries pay the most?
+-> Which countries pay the most?
 
 The project combines two survey datasets, cleans them, fixes inconsistencies, and produces clear, professional visualizations.
 
@@ -29,30 +29,31 @@ Seaborn
 Jupyter Notebook (Anaconda Cloud)
 
 ⭐ Dataset Description:
-Two survey datasets were merged-
+Two survey datasets were merged -
 2019responses.csv
 2021responses.csv
 
 After cleaning, the final dataset contains columns as:
-Salary (USD)
 
-Years of Experience
+🔹 Salary (USD)
 
-Job Title
+🔹 Years of Experience
 
-Education Level
+🔹 Job Title
 
-Company Size
+🔹 Education Level
 
-Work Hours
+🔹 Company Size
 
-Remote Days
+🔹 Work Hours
 
-Employment Type
+🔹 Remote Days
 
-Country
+🔹 Employment Type
 
-Survey Year
+🔹 Country
+
+🔹 Survey Year
 
 ⭐ Data Cleaning Steps:
 
@@ -152,18 +153,13 @@ insights
 
 **⭐ Future Improvements**
 
-*Build an interactive dashboard (Streamlit / Power BI)
+* Build an interactive dashboard (Streamlit / Power BI)
 
-*Add machine learning salary prediction
+* Add machine learning salary prediction
 
-*Create role clustering using NLP
+* Create role clustering using NLP
 
-*Add filters for country/year to the visualizations
-
-**⭐ License**
-
-This project is All Rights Reserved unless you choose to add a license later.
-(You mentioned you do NOT want others using your code — so no open-source license is applied.)
+* Add filters for country/year to the visualizations
 
 **Final Note**
 
